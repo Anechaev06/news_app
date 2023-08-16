@@ -1,5 +1,6 @@
 import 'package:floor/floor.dart';
 import 'package:news_app/features/daily_news/domain/entities/article.dart';
+import '../../../../core/constants/constants.dart';
 
 @Entity(tableName: 'article', primaryKeys: ['id'])
 class ArticleModel extends ArticleEntity {
@@ -29,7 +30,9 @@ class ArticleModel extends ArticleEntity {
       title: map['title'] ?? "",
       description: map['description'] ?? "",
       url: map['url'] ?? "",
-      urlToImage: map['urlToImage'] ?? "",
+      urlToImage: map['urlToImage'] != null && map['urlToImage'] != ""
+          ? map['urlToImage']
+          : kDefaultImage,
       publishedAt: map['publishedAt'] ?? "",
       content: map['content'] ?? "",
     );
