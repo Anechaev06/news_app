@@ -1,10 +1,8 @@
 # News App
 
-Welcome to the News App, a platform to keep you informed with the latest news and updates from around the world.
-
 ## Introduction
 
-The News App is a mobile application developed using the Flutter framework that provides users with a seamless experience to access daily news articles on various topics.
+**The News App is a mobile application developed using the Flutter framework that provides users with a seamless experience to access daily news articles on various topics.**
 
 ## Features
 
@@ -21,37 +19,19 @@ The News App is a mobile application developed using the Flutter framework that 
 
 ## Installation
 
-To run the News App on your local machine, follow these steps:
-
-1. Clone this repository: `git clone https://github.com/Anechaev06/news_app.git`
-2. Navigate to the project directory: `cd news_app`
-3. Install dependencies: `flutter pub get`
-4. Run the app: `flutter run`
-
-Note: Make sure you have Flutter and Dart installed on your machine.
-
-## Usage
-
-Once the app is running, you can:
-
-- Browse the latest news articles on the home screen.
-- Tap on an article to read the full content.
-- Use the search bar to find specific articles.
-- Customize your news feed by selecting preferred topics.
-- Save articles to read later by bookmarking them.
-
-## Technologies Used
-
-- Flutter: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
-- Dart: A programming language optimized for building mobile, desktop, server, and web applications.
-
-## Contributing
-
-Contributions are welcome! If you find a bug or have a feature suggestion, feel free to create an issue or submit a pull request.
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-new-feature`
-3. Make your changes and commit them: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature-new-feature`
-5. Open a pull request.
-
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Anechaev06/news_app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd news_app
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
